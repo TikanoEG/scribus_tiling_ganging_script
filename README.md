@@ -95,7 +95,7 @@ If you don't have it already, download the ScribusGenerator script from this add
 1.  **Data File & Design Preparation:**
       * Prepare a structured spreadsheet file using any spreadsheet creator like LibreOffice Calc, The file should contain a column for Employee Name that you will give the first cell of it a specific text, say "employee_name" without the quotation, then make another column for Job Title and fill the first cell with, say "job_position" without the quotation. Fill the 2 columns with your data of names and job titles then save the document as (**csv**) with (**Unicode (utf-8)**) selected for encoding, I saved mine as "employee_data.csv".
       * Create a Scribus document with the item's dimensions (e.g., **90mm x 50mm**).
-      * Insert text holder into Text Frames using the **%VAR_%** symbol (e.g., `%VAR_employee_name%` and %VAR_job_position%).
+      * Insert text holder into Text Frames using the **%VAR_%** symbol (e.g., `%VAR_employee_name%` and %VAR_job_position%). You can stylize the placeholder text as you want your text to appear.
 
 ![Prepare a spreadsheet](images/spreadsheet.jpeg)
 
@@ -116,7 +116,7 @@ If you don't have it already, download the ScribusGenerator script from this add
 
 1.  **Review:** Inspect the generated Scribus document to confirm the tiling layout is correct.
 
-![Final Generated Document in Scribus](images/final_document_review.png)
+![Final Generated Document in Scribus](images/main_result_showcase.jpeg)
 *Description: A screenshot of the final Scribus document displaying the ganged layout, similar to the main showcase image but with specific example content.*
 
 2.  **Export:** Export the final document as a **PDF/X-3** or **EPS** file. These formats preserve the hidden vector cut path data alongside the printable image data.
